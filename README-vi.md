@@ -6,20 +6,20 @@
 [![Join the chat at https://gitter.im/jlevy/the-art-of-command-line](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jlevy/the-art-of-command-line?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 - [Meta](#meta)
-- [Basics](#basics)
-- [Everyday use](#everyday-use)
-- [Processing files and data](#processing-files-and-data)
-- [System debugging](#system-debugging)
+- [Lệnh cơ bản](#Lệnh cơ bản)
+- [Lệnh hay dùng](#Lệnh hay dùng)
+- [Lệnh xử lý file và dữ liệu](#Lệnh xử lý file và dữ liệu)
+- [Lệnh tìm lỗi hệ thống](#lệnh tìm lỗi hệ thống)
 - [One-liners](#one-liners)
-- [Obscure but useful](#obscure-but-useful)
-- [MacOS X only](#macos-x-only)
-- [More resources](#more-resources)
-- [Disclaimer](#disclaimer)
+- [Lệnh ít được biết tới nhưng hữu dụng](#Lệnh ít được biết tớt nhưng hữu dụng)
+- [Lệnh dành rêng cho MacOS X](#Lệnh dành rêng cho macos-x)
+- [Những nguồn khác](#Những nguồn khác)
+- [Cảnh báo khi sử dụng](#Cảnh báo khi sử dụng)
 
 
 ![curl -s 'https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README.md' | egrep -o '`\w+`' | tr -d '`' | cowsay -W50](cowsay.png)
 
-Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways. This is a selection of notes and tips on using the command-line that we've found useful when working on Linux. Some tips are elementary, and some are fairly specific, sophisticated, or obscure. This page is not long, but if you can use and recall all the items here, you know a lot.
+Việc sử dụng thành thạo các câu lệnh là một kỹ năng mang tính bí quyết, nhưng nó gíup nâng cao sự linh hoạt và hiệu suất của kỹ sư theo cả hướng có thể quan sát được lẫn kông quan sát được.  Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways. This is a selection of notes and tips on using the command-line that we've found useful when working on Linux. Some tips are elementary, and some are fairly specific, sophisticated, or obscure. This page is not long, but if you can use and recall all the items here, you know a lot.
 
 This work is the result of [many authors and translators](AUTHORS.md).
 Much of this
